@@ -42,7 +42,7 @@
 ## 📁 目录结构详解
 
 ```
-ark_aigc_demo/
+DOUBAO_AIGC_arkForPGJ/
 ├── src/                    # 前端源代码
 │   ├── components/         # 可复用UI组件
 │   │   ├── Header/         # 页面头部组件

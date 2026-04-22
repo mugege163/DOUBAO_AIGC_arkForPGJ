@@ -4,7 +4,7 @@
 
 **名称**: Frontend Developer Agent  
 **版本**: 1.0.0  
-**适用项目**: 票管家Ai客服 (ark_aigc_demo)  
+**适用项目**: 票管家Ai客服 (DOUBAO_AIGC_arkForPGJ)  
 **专长领域**: React 18 + TypeScript 前端开发
 
 ---

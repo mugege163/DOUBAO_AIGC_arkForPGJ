@@ -4,7 +4,7 @@
 
 **名称**: AI/LLM Integration Agent  
 **版本**: 1.0.0  
-**适用项目**: 票管家Ai客服 (ark_aigc_demo)  
+**适用项目**: 票管家Ai客服 (DOUBAO_AIGC_arkForPGJ)  
 **专长领域**: 豆包大模型、RAG检索增强、提示词工程、流式响应
 
 ---

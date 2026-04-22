@@ -4,7 +4,7 @@
 
 **名称**: Backend API Agent  
 **版本**: 1.0.0  
-**适用项目**: 票管家Ai客服 (ark_aigc_demo)  
+**适用项目**: 票管家Ai客服 (DOUBAO_AIGC_arkForPGJ)  
 **专长领域**: Node.js (Koa) + Python (FastAPI) 后端开发
 
 ---
