@@ -1,0 +1,75 @@
+{
+  "SceneConfig": {
+    "icon": "https://lf3-rtc-demo.volccdn.com/obj/rtc-aigc-assets/DoubaoAvatar.png",
+    "name": "票管家Ai客服"
+  },
+  "AccountConfig": {
+    "accessKeyId": "YOUR_VOLC_ACCESS_KEY_HERE",
+    "secretKey": "YOUR_VOLC_SECRET_KEY_HERE"
+  },
+  "RTCConfig": {
+    "AppId": "YOUR_RTC_APP_ID_HERE",
+    "AppKey": "YOUR_RTC_APP_KEY_HERE",
+    "RoomId": "ChatRoom01",
+    "UserId": "Huoshan01",
+    "Token": ""
+  },
+  "VoiceChat": {
+    "AppId": "YOUR_RTC_APP_ID_HERE",
+    "RoomId": "ChatRoom01",
+    "TaskId": "ChatTask01",
+    "AgentConfig": {
+      "TargetUserId": [
+        ""
+      ],
+      "WelcomeMessage": "您好，我是票管家Ai客服，很高兴为您服务。请问有什么购票问题需要我帮您解答吗？",
+      "UserId": "TicketAssistant",
+      "EnableConversationStateCallback": true
+    },
+    "Config": {
+      "ASRConfig": {
+        "Provider": "volcano",
+        "ProviderParams": {
+          "Mode": "smallmodel",
+          "AppId": "YOUR_ASR_APP_ID_HERE",
+          "Cluster": "volcengine_streaming_common"
+        }
+      },
+      "TTSConfig": {
+        "Provider": "volcano",
+        "ProviderParams": {
+          "app": {
+            "appid": "YOUR_TTS_APP_ID_HERE",
+            "cluster": "volcano_tts"
+          },
+          "audio": {
+            "voice_type": "BV001_streaming",
+            "speed_ratio": 1,
+            "pitch_ratio": 1,
+            "volume_ratio": 1
+          }
+        }
+      },
+      "LLMConfig": {
+        "Mode": "ArkV3",
+        "EndPointId": "",
+        "SystemMessages": [
+          "你是票管家Ai客服，温柔、耐心、细致、贴心。你的职责是帮助用户了解和使用票管家进行团体票购买。在表达时需简明扼要，语气温和亲切。"
+        ],
+        "VisionConfig": {
+          "Enable": false
+        }
+      },
+      "AvatarConfig": {
+        "Enabled": false,
+        "AvatarType": "3min",
+        "AvatarRole": "250623-zhibo-linyunzhi",
+        "BackgroundUrl": "",
+        "VideoBitrate": 2000,
+        "AvatarAppID": "",
+        "AvatarToken": ""
+      },
+      "InterruptMode": 0
+    }
+  }
+}

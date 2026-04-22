@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.vscode
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env  # Python后端环境变量（敏感信息）
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+/Server/node_modules
+/Server/log
+/log
+yarn.lock
+.eslintcache
+pnpm-lock.yaml
+dist/
+log/
+
+**/__pycache__
+**/.env
+/server_python/scenes/custom.json
+
+# ============================================
+# 敏感信息和配置文件
+# ============================================
+# 包含真实密钥的场景配置文件
+Server/scenes/*.local.json
+Server/scenes/*.prod.json
+
+# Python虚拟环境
+.venv/
+venv/
+env/
+
+# IDE配置（可选）
+.idea/
+*.swp
+*.swo
+*~
